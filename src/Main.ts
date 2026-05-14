@@ -2,7 +2,7 @@ import PDFReport from "./pdfreport";
 import ExcelReport from "./excelreport";
 import WordReport from "./wordreport";
 
-console.log("===== PDF REPORT =====");
+console.log("#### pdf ####");
 
 const pdf = new PDFReport();
 
@@ -16,6 +16,6 @@ const excel = new ExcelReport();
 
 excel.generateReport();
 console.log("===== WORD REPORT ====");
-const word =new WordReport();
+const word = new WordReport();
 word.generateReport();
 console.log();
